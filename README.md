@@ -85,3 +85,31 @@ mkdir my-drosera-trap
 cd my-drosera-trap
 ```
 ### Replace <mark>Github_Email</mark> & <mark>Github_Username</mark> :
+```
+git config --global user.email "Github_Email"
+git config --global user.name "Github_Username"
+```
+### Initialize Trap:
+```
+forge init -t drosera-network/trap-foundry-template
+```
+### Compile Trap:
+```
+curl -fsSL https://bun.sh/install | bash
+
+source /root/.bashrc
+
+bun install
+```
+```
+forge build
+```
+| skip Warning !
+
+### Deploy Trap:
+```
+DROSERA_PRIVATE_KEY=xxx drosera apply
+```
+- Replace <mark>xxx</mark> with your EVM wallet <mark>privatekey</mark> (Ensure it's funded with <mark>Holesky ETH</mark>)
+- Enter the command, when prompted, write <mark>ofc</mark> and press Enter.
+![](https://i.ibb.co.com/HL0N1rqY/1.png)
