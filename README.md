@@ -12,4 +12,4 @@ In this Guide, we contribute to Drosera testnet by:
 - 4 GB RAM
 - 20 GB Disk Space
 - Get started with a low-budget VPS for as low as $5! [Purchase here](https://my.hostbrr.com/order/forms/)
-- Create your own Ethereum Holesky RPC in [Alchemy](https://my.hostbrr.com/order/forms/) or [QuickNode](https://my.hostbrr.com/order/forms/).
+- Create your own Ethereum Holesky RPC in [Alchemy](https://dashboard.alchemy.com/) or [QuickNode](https://dashboard.quicknode.com/).
