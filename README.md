@@ -112,4 +112,4 @@ DROSERA_PRIVATE_KEY=xxx drosera apply
 ```
 - Replace <mark>xxx</mark> with your EVM wallet <mark>privatekey</mark> (Ensure it's funded with <mark>Holesky ETH</mark>)
 - Enter the command, when prompted, write <mark>ofc</mark> and press Enter.
-![](https://i.ibb.co.com/HL0N1rqY/1.png)
+![script](https://i.ibb.co.com/HL0N1rqY/1.png)
