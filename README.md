@@ -45,3 +45,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 # Test Docker
 sudo docker run hello-world
 ```
+
+# Trap Setup
+<div style="text-align: center;">
+</div>
