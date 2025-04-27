@@ -46,6 +46,42 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
-<div style="text-align: center;">
-# Trap Setup
-</div>
+<h1 style="text-align: center;">Trap Setup</h1>
+
+## 1. Configure Environment
+
+### Drosera CLI:
+```
+curl -L https://app.drosera.io/install | bash
+```
+```
+source /root/.bashrc
+```
+```
+droseraup
+```
+### Foundry CLI:
+```
+curl -L https://foundry.paradigm.xyz | bash
+```
+```
+source /root/.bashrc
+```
+```
+foundryup
+```
+### Bun:
+```
+curl -fsSL https://bun.sh/install | bash
+
+source /root/.bashrc
+```
+
+## 2. Deploy Contract & Trap
+```
+mkdir my-drosera-trap
+```
+```
+cd my-drosera-trap
+```
+### Replace <mark>Github_Email</mark> & <mark>Github_Username</mark> :
