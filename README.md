@@ -220,8 +220,8 @@ sudo ufw allow 31314/tcp
 
 Choose one Installation Method:
 
-Method 1: Install using Docker
-Method 2: Install using SystemD
+Method 1: [Install using Docker](https://github.com/Arlansider/Drosera-Network?tab=readme-ov-file#method-1-docker)
+Method 2: [Install using SystemD](https://github.com/Arlansider/Drosera-Network?tab=readme-ov-file#method-2-systemd)
 
 ## Method 1: Docker
 
@@ -358,3 +358,7 @@ In the dashboard., Click on Opti in to connect your operator to the Trap
 Your node will start producing greeen blocks in the dashboard
 
 ![script](https://i.ibb.co.com/xqrZVX6x/8.png)
+
+## Credit
+
+This guide is based on the original work by [0xmoei](https://github.com/0xmoei/Drosera-Network) who provided the initial Drosera node setup instructions. This version was expanded and formatted for clarity and ease of use.
